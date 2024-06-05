@@ -1,0 +1,23 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "7 first node js code.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "i": "^0.3.7",
+    "npm": "^10.8.0",
+    "postman-request": "^2.88.1-postman.33",
+    "validator": "^10.11.0",
+    "yargs": "^17.7.2"
+  },
+  "keywords": [],
+  "description": ""
+}
