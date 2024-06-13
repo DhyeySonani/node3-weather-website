@@ -2,9 +2,10 @@
   "name": "web---server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/ sec 8 - 59 Wiring up the User Interface.js"
+    "start": "node src/sec 8 - 59 Wiring up the User Interface.js"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +13,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.19.2",
-    "hbs": "^4.2.0",
     "path": "^0.12.7",
-    "postman-request": "^2.88.1-postman.33",
     "url": "^0.11.3"
   }
 }
