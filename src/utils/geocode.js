@@ -1,7 +1,7 @@
 import request from 'postman-request';
 
 const geocode = (address, callback) => {
-    const url =  'https://api.geocod.io/v1.7/geocode?q='+ encodeURIComponent(address) +'&api_key=66006616566665636cb66383c68cc81101161a5&limit=1'
+    const url =  'https://api.geocod.io/v1.7/geocode?q='+ encodeURIComponent(address) +'&api_key=66006616566665636cb66383c68cc81101161a5'
 
     
     request ({url, json:true}, (error, {body}) => {
